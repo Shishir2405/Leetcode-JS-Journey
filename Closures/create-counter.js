@@ -5,13 +5,13 @@
  * @param {number} n - The starting integer for the counter.
  * @return {Function} counter - The counter function.
  */
-var createCounter = function(n) {
-    return function() {
-        return n++;
-    };
+var createCounter = function (n) {
+  return function () {
+    return n++;
+  };
 };
 
-/** 
+/**
  * Example usage:
  */
 const counter = createCounter(10);
